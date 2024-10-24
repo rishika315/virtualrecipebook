@@ -1,0 +1,36 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.recipe-list {
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center-align the items in the flex container */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* src/pages/RecipePage.css */
+.recipe-page {
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Optional padding for spacing */
+}
+
+

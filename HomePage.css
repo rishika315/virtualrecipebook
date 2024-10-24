@@ -1,0 +1,240 @@
+.home-page {
+    font-family: Arial, sans-serif;
+}
+
+
+.lavender-margin {
+    height: 50px;
+    background-color:#856533;
+}
+
+.top-rectangle {
+    height: 200px;
+
+    background-color: #856533;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar span {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 20px; /* Increased padding for a bigger tab */
+    color: rgb(92, 29, 29);
+    background-image: url('https://s3-us-west-1.amazonaws.com/mf-blog-staticfiles/d-compressed/ghost-prod/2018/09/Cyster-Blog.jpg'); /* Replace with your larger image URL */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: dark overlay for better text visibility */
+    margin: 20px; /* Add margin around the hero section */
+}
+
+/* Adjust heading and paragraph sizes if needed */
+.hero h1 {
+    font-size: 48px; /* Increase font size for a bigger title */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px; /* Increase font size for the paragraph */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #501c0c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.info {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image-gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px; /* Adjust size as necessary */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-signup {
+    text-align: center;
+    margin: 20px;
+}
+
+.follow-us {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Blog description styles */
+.blog-description {
+    text-align: center;
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: #A67B5B; /* Alice Blue - you can change this to any color you prefer */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow effect */
+}
+
+.blog-description h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #083f0f; /* Color for the heading */
+}
+
+.blog-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.blog-description ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.blog-description li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Features styles */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.feature {
+    flex: 1; /* Each feature takes equal space */
+    margin: 10px; /* Margin between features */
+    padding: 15px;
+    background-color: #ffffff; /* White background for each feature */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text */
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #631b05; /* Feature title color */
+}
+
+.feature p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.halloween-recipes {
+    text-align: center; /* Center text */
+    margin: 20px 0;
+}
+
+.halloween-recipes h2 {
+    font-size: 28px;
+    color: #0a3f24; /* Title color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+
+/* Art of Food section styles */
+.art-of-food {
+    background-color: #EED9C4; /* Light background for the section */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.art-container {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space between image and text */
+}
+
+.art-image {
+    width: 40%; /* Adjust width as needed */
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+.art-description {
+    width: 55%; /* Adjust width to fit the layout */
+    padding-left: 20px; /* Space between image and text */
+}
+
+.art-description h2 {
+    color: #b35930; /* Title color */
+}
+
+.art-description p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333; /* Text color */
+}
+
+footer {
+    text-align: center; /* Center text */
+    padding: 20px; /* Space inside the footer */
+    background-color: #c3b091; /* Light grey background color */
+    color: #333; /* Text color */
+    margin-top: 20px; /* Space above the footer */
+    border-top: 2px solid #10500d; /* Optional: border at the top */
+}
+
+footer a {
+    color: #973517; /* Color for the links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+

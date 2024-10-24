@@ -1,0 +1,68 @@
+.add-recipe-page {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    background: url('https://classroomclipart.com/image/static7/preview/vector5-60507.gif') no-repeat center center/cover; /* Add your background image */
+    height: 100vh; /* Set height to cover the viewport */
+    padding: 20px; /* Optional padding for content spacing */
+}
+
+.add-recipe-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgb(63, 10, 10); /* Change font color for the title */
+ /* Change font family for the title */
+}
+
+.add-recipe-page p {
+    font-size: 1.2rem; /* Change font size for the paragraph */
+    color: rgb(49, 14, 14); /* Change font color for the paragraph */
+    font-family: 'Georgia', serif; /* Change font family for the paragraph */
+}
+
+.add-recipe-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Space below the form */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a white background with transparency */
+    padding: 20px; /* Add padding to the form for better spacing */
+    border-radius: 10px; /* Rounded corners for the form */
+}
+
+.add-recipe-page input,
+.add-recipe-page textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0; /* Space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-recipe-page button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-recipe-page button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.add-recipe-page a {
+    margin-top: 20px; /* Added space between sections */
+    text-decoration: none;
+    color: #007bff;
+}
+
+.add-recipe-page a:hover {
+    text-decoration: underline;
+}
+
+/* Added spacing class for a gap */
+.spacing {
+    margin: 30px 0; /* Add margin to create space */
+}

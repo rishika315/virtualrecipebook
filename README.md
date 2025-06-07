@@ -19,12 +19,6 @@ This project demonstrates how modern frontend technologies like **React** can be
 
 ---
 
-## 📸 Screenshots (Optional)
-
-> Add a few UI screenshots here (e.g., homepage, recipe form, card gallery) if available.
-
----
-
 ## 🧑‍🍳 User Flow
 
 1. Users land on a welcoming homepage.
